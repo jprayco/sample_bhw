@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Signika Negative');
+:root {
+    --light: #cdf4ff;
+    --white: #ffffff;
+    --dark_blue: #006d8b;
+    --darker_blue: #003d59;
+    --teal:#00aba9;
+    --blue: #2b5797;
+    --red:#b91d47;
+    --pink:#FFB3D7;
+    --violet:#D781EB;
+    --light-violet:#7E83BD;
+    --dark-violet:#5D5078;
+  }
+
+.bg-light-blue
+{
+    background: var(--light);
+}
+
+.bg-darker-blue{
+    background: var(--darker_blue);
+}
+.bg-logo{
+    background-image: url('/imgs/logo_batia.png');
+    background-repeat: no-repeat;
+    background-position: 40rem -15rem;
+    background-size: 65rem;
+}
+.bg-dark-blue{
+    background: var(--dark_blue);
+}
+
+.bg-blue{
+    background: var(--blue);
+}
+
+.border-bottom-white-3{
+    border-bottom: var(--white) solid 3px;
+}
+.border-bottom-dark-blue-3{
+    border-bottom: var(--dark_blue) solid 3px;
+}
+
+.border-top-dark-blue-3{
+    border-top: var(--dark_blue) solid 3px;
+}
+.btn-dark-blue{
+    background: var(--dark_blue);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.btn-dark-blue:hover{
+    background: transparent;
+    color: var(--dark_blue);
+    border: var(--dark_blue) solid 3px;
+}
+
+.btn-red{
+    background: var(--red);
+    color: var(--white);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+.btn-red:hover{
+    background: transparent;
+    color: var(--red);
+    border: var(--red) solid 3px;
+}
+
+.text-blue{
+    color: var(--blue);
+}
+
+.text-dark-blue{
+    color: var(--dark_blue);
+}
+
+.text-red{
+    color: var(--red);
+}
+
+.text-teal{
+    color: var(--teal);
+}
+.text-pink{
+    color: var(--pink);
+}
+
+.text-violet{
+    color: var(--violet);
+}
+
+.text-violet{
+    color: var(--dark-violet);
+}
+
+.text-4{
+    font-size: 4rem;
+}
+
+.font-Signika-Negative{
+    font-family: Signika Negative;
+}
+
+.text-bolder{
+    font-weight: bolder;
+}
+
+.opacity-80{
+    opacity: .9;
+}
+
+.vh-100{
+    height: 100%;
+}
+.vh-95{
+    height: 93%;
+}
+.h-30{
+    height: 25rem;
+}
+
+.h-10{
+    height: 10rem;
+}
+
+.h-5{
+    height: 5rem;
+}
+
+.h-2{
+    height: 2.5rem;
+}
+
+.h-1{
+    height: 1rem;
+}
+
+.bottom-right{
+    bottom: 1rem;
+    right: 0;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.radius-10{
+    border-radius: 10px;
+}
+
+.hover-card{
+    transition: transform 0.5s;
+ }
+
+.hover-card:hover{
+   transform: scale(1.05, 1.05);
+   color: var(--darker_blue);
+   box-shadow: 10px 10px 5px var(--dark_blue);
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.btn-decoration-none{
+    background: transparent;
+    border: none;
+}
+
+
+.outline-none{
+    outline: none;
+}
